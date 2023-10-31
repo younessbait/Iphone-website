@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.contianer {
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.logo {
+  width: 40%;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+ul li a:hover{
+  border-bottom: white solid 3px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.content .text{
+  width: 40%;
+  color: white;
+}
+.content .text h2{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.content .text p{
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.content .text button{
+  width:40%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.content .text button:hover{
+  background-color: transparent;
+  color: white;
+  border: white solid 2px;
+  cursor: pointer;
+}
+.content .image{
+  width: 30%;
+}
+.content .image img{
+  width: 70%;
+}
+.icons{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icons img{
+  width: 40px;
+  transition: 0.5s;
+}
+.icons img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
